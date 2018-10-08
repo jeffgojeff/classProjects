@@ -1,3 +1,6 @@
+//Starfleet application
+//Jeffrey C. Slocum
+
 #include <iostream>
 using namespace std;
 
@@ -36,7 +39,7 @@ int main ()
 		cout << "Sorry, Starfleet does not accepct Romulans.";
 	}
 
-	//weed out the youngin applicants and inform them why they are not accepted
+	//age test, and inform them why they are not accepted if too young
 	//tell them how long until they can reapply
 	else if ((race != "vulcan" && race != "Vulcan") && (age < 17 && sat < 1500))
 	{
@@ -45,11 +48,11 @@ int main ()
 		//nested if statement for grammar purposes
 		if (ageDiff == 1)
 		{
-		cout << "Way too young bro. Try again in " << ageDiff << " year." << endl;
+		cout << "You do not meet the minimum age requirement. Try again in " << ageDiff << " year." << endl;
 		}
 		else
 		{
-			cout << "Way too young bro, Try again in " << ageDiff << " years." << endl;
+			cout << "You do not meet the minimum age requirement. Try again in " << ageDiff << " years." << endl;
 		}
 	}
 
@@ -61,11 +64,11 @@ int main ()
 		//nested if statement for grammar purposes
 		if (ageDiff == 1)
 		{
-		cout << "Way too young bro. Try again in " << ageDiff << " year." << endl;
+		cout << "You do not meet the minimum age requirement. Try again in " << ageDiff << " year." << endl;
 		}
 		else
 		{
-			cout << "Way too young bro, Try again in " << ageDiff << " years." << endl;
+			cout << "You do not meet the minimum age requirement. Try again in " << ageDiff << " years." << endl;
 		}
 	}
 	
